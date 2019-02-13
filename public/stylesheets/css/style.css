@@ -1,0 +1,78 @@
+body{
+    background: lightblue;
+    width: auto;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+	font-weight:600;
+	letter-spacing:2px;
+		
+}
+p {
+	margin: 0;
+	color:#777;
+	letter-spacing:1px;
+	line-height:1.8em;
+	font-size:15px;
+	font-weight:400;
+	text-align: justify;
+}
+.sam{
+    background: rgb(66, 72, 85);
+}
+.edit-samdos{
+    text-shadow: rgb(108, 5, 243) 2px 1px 10px;
+    color: aquamarine;
+}
+.my-body{ 
+    width: auto;
+    background: rgb(217, 197, 212);
+}
+.body-section{
+    width: auto;
+    background: rgb(162, 5, 155);
+    cursor: pointer;
+    border-radius: 0px 0px 0px 0px;
+    -webkit-box-shadow:black 8px 10px 8px;
+    -moz-box-shadow:black 8px 10px 8px;
+    -o-box-shadow:black 8px 10px 8px;
+}.advert{
+    height: auto;
+    width: auto;
+    margin: 0px 0px 20px; 0px;
+}.body-section h1{
+    background: black;
+}
+.round-button{
+    border-radius: 5px;
+}.hover-text:hover{
+    background:rgb(238, 38, 238);
+    transition: 1s;
+}
+.document-page{
+    margin: 30px;
+    width: auto;
+    background: #fff;
+}.disable-div{
+    visibility: hidden;
+}.advert-img{
+    height: 150px;
+    width: 100%;
+}
+.free-web{
+    background: blue;
+}
+.free-web:hover{
+    background: rgb(217, 126, 126);
+    transition: 1000ms;
+}.free-web2{
+    background: rgb(207, 117, 32);
+}.free-web2:hover{
+    background: rgb(233, 153, 153);
+    transition: 1000ms;
+}
