@@ -60,7 +60,6 @@ let userPin = document.getElementById('userPin').value;
    }
 }
 
-// -------------------------------------end here ----------------------------------------------------------
 
 // ------------------------------------CSC322 start here -------------------------------------------------
 
@@ -120,6 +119,9 @@ function getPinCss3321617456(){
 // --------------------------CSC322 end here ------------------------------------
 
 // -------------------------Checked pin code-------------------------------------
+
+
+// =============================== csc320 =================================================
 function checked(){
     let printId = [];
     let printId2 = []; let printId3=[]; let printId4=[];let printId5=[];let printId6=[];
@@ -139,6 +141,10 @@ function checked(){
         document.getElementById('printId2').innerHTML = printId2;
 
     }
+
+
+// =============================== csc322 =================================================
+
     for (let x1 = 1; x1 < 10; x1++){
         let myPin = Math.floor(Math.random()*10000);
         myPin = myPin + 10000;
@@ -155,6 +161,8 @@ function checked(){
         document.getElementById('printId4').innerHTML = printId4;
 
     }
+
+// =============================== csc326 =================================================
     for (let x1 = 1; x1 < 10; x1++){
         let myPin = Math.floor(Math.random()*10000);
         myPin = myPin + 10000;
@@ -171,6 +179,8 @@ function checked(){
         document.getElementById('printId6').innerHTML = printId6;
 
     }
+
+    // =============================== csc328 =================================================
     for (let x1 = 1; x1 < 10; x1++){
         let myPin = Math.floor(Math.random()*10000);
         myPin = myPin + 10000;
@@ -186,6 +196,8 @@ function checked(){
         document.getElementById('printId8').innerHTML = printId8;
 
     }
+
+    // =============================== csc340 =================================================
     for (let x1 = 1; x1 < 10; x1++){
         let myPin = Math.floor(Math.random()*10000);
         myPin = myPin + 10000;
@@ -202,6 +214,8 @@ function checked(){
         document.getElementById('printId10').innerHTML = printId10;
 
     }
+
+// =============================== mat332 =================================================
     for (let x1 = 1; x1 < 10; x1++){
         let myPin = Math.floor(Math.random()*10000);
         myPin = myPin + 10000;
@@ -218,6 +232,9 @@ function checked(){
         document.getElementById('printId12').innerHTML = printId12;
 
     }
+
+
+    // =============================== The end =================================================
 
 
     // let copyPin = document.getElementById('copyPin');
