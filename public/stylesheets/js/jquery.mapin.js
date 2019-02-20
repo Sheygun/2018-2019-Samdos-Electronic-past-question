@@ -32,7 +32,7 @@ let userPin = document.getElementById('userPin').value;
 
    if (found){
         window.location.replace('/csc32020180101seo1');
-   }  
+   }
 }
 
 function getPinCss320161756(){
@@ -57,7 +57,7 @@ let userPin = document.getElementById('userPin').value;
 
    if (found){
         window.location.replace('/csc32020180101seo2');
-   } 
+   }
 }
 
 // -------------------------------------end here ----------------------------------------------------------
@@ -79,16 +79,16 @@ function getPinCss332161723(){
                     document.getElementById('danger').style.visibility = "visible";
                     document.getElementById('print-error').innerHTML = "You didn't enter any Value, Please Input Pin!!!";
                 }else{
-    
+
                 document.getElementById('danger').style.visibility = "visible";
                 document.getElementById('print-error').innerHTML = "You've entered an Incorrect pin, kindly try again!!!";
                 }
            }
        });
-    
+
        if (found){
             window.location.replace('/csc3322018010102seo1');
-       } 
+       }
 }
 
 function getPinCss3321617456(){
@@ -104,16 +104,16 @@ function getPinCss3321617456(){
                     document.getElementById('danger').style.visibility = "visible";
                     document.getElementById('print-error').innerHTML = "You didn't enter any Value, Please Input Pin!!!";
                 }else{
-    
+
                 document.getElementById('danger').style.visibility = "visible";
                 document.getElementById('print-error').innerHTML = "You've entered an Incorrect pin, kindly try again!!!";
                 }
            }
        });
-    
+
        if (found){
             window.location.replace('/csc3322018010103seo1');
-       } 
+       }
 }
 
 
@@ -121,21 +121,110 @@ function getPinCss3321617456(){
 
 // -------------------------Checked pin code-------------------------------------
 function checked(){
-    let pinSale = [];
+    let printId = [];
+    let printId2 = []; let printId3=[]; let printId4=[];let printId5=[];let printId6=[];
+    let printId7 = []; let printId8=[]; let printId9=[];let printId10=[];let printId11=[]; let printId12 = [];
     for (let x1 = 1; x1 < 10; x1++){
         let myPin = Math.floor(Math.random()*10000);
         myPin = myPin + 10000;
-        pinSale.push(myPin + " ");
+        printId.push(" " + myPin);
         document.getElementById('copyPin').style.visibility = "visible";
-        document.getElementById('printId').innerHTML = pinSale;
+        document.getElementById('printId1').innerHTML = printId;
+    }
+    for (let x1 = 1; x1 < 10; x1++){
+        let myPin = Math.floor(Math.random()*10000);
+        myPin = myPin + 10000;
+        printId2.push(" "+ myPin);
+        document.getElementById('copyPin').style.visibility = "visible";
+        document.getElementById('printId2').innerHTML = printId2;
 
-    } let copyPin = document.getElementById('copyPin');
-    copyPin.onclick = function(){
-        copyToClipboard(pinSale);
+    }
+    for (let x1 = 1; x1 < 10; x1++){
+        let myPin = Math.floor(Math.random()*10000);
+        myPin = myPin + 10000;
+        printId3.push(" "+ myPin);
+        document.getElementById('copyPin').style.visibility = "visible";
+        document.getElementById('printId3').innerHTML = printId3;
+
+    }
+    for (let x1 = 1; x1 < 10; x1++){
+        let myPin = Math.floor(Math.random()*10000);
+        myPin = myPin + 10000;
+        printId4.push(" "+ myPin);
+        document.getElementById('copyPin').style.visibility = "visible";
+        document.getElementById('printId4').innerHTML = printId4;
+
+    }
+    for (let x1 = 1; x1 < 10; x1++){
+        let myPin = Math.floor(Math.random()*10000);
+        myPin = myPin + 10000;
+        printId5.push(" "+ myPin);
+        document.getElementById('copyPin').style.visibility = "visible";
+        document.getElementById('printId5').innerHTML = printId5;
+
+    }
+    for (let x1 = 1; x1 < 10; x1++){
+        let myPin = Math.floor(Math.random()*10000);
+        myPin = myPin + 10000;
+        printId6.push(" "+ myPin);
+        document.getElementById('copyPin').style.visibility = "visible";
+        document.getElementById('printId6').innerHTML = printId6;
+
+    }
+    for (let x1 = 1; x1 < 10; x1++){
+        let myPin = Math.floor(Math.random()*10000);
+        myPin = myPin + 10000;
+        printId7.push(" " + myPin);
+        document.getElementById('copyPin').style.visibility = "visible";
+        document.getElementById('printId7').innerHTML = printId7;
+    }
+    for (let x1 = 1; x1 < 10; x1++){
+        let myPin = Math.floor(Math.random()*10000);
+        myPin = myPin + 10000;
+        printId8.push(" "+ myPin);
+        document.getElementById('copyPin').style.visibility = "visible";
+        document.getElementById('printId8').innerHTML = printId8;
+
+    }
+    for (let x1 = 1; x1 < 10; x1++){
+        let myPin = Math.floor(Math.random()*10000);
+        myPin = myPin + 10000;
+        printId9.push(" "+ myPin);
+        document.getElementById('copyPin').style.visibility = "visible";
+        document.getElementById('printId9').innerHTML = printId9;
+
+    }
+    for (let x1 = 1; x1 < 10; x1++){
+        let myPin = Math.floor(Math.random()*10000);
+        myPin = myPin + 10000;
+        printId10.push(" "+ myPin);
+        document.getElementById('copyPin').style.visibility = "visible";
+        document.getElementById('printId10').innerHTML = printId10;
+
+    }
+    for (let x1 = 1; x1 < 10; x1++){
+        let myPin = Math.floor(Math.random()*10000);
+        myPin = myPin + 10000;
+        printId11.push(" "+ myPin);
+        document.getElementById('copyPin').style.visibility = "visible";
+        document.getElementById('printId11').innerHTML = printId11;
+
+    }
+    for (let x1 = 1; x1 < 10; x1++){
+        let myPin = Math.floor(Math.random()*10000);
+        myPin = myPin + 10000;
+        printId12.push(" "+ myPin);
+        document.getElementById('copyPin').style.visibility = "visible";
+        document.getElementById('printId12').innerHTML = printId12;
+
+    }
+
+
+    // let copyPin = document.getElementById('copyPin');
+    // copyPin.onclick = function(){
+        // copyToClipboard(pinSale);
         // let copyText = document.getElementById('myInput');
         // copyText.select();
         // document.execCommand("copy");
         // alert("Copied the text: "+ pinSale);
-            
-    } 
 }

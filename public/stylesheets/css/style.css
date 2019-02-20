@@ -81,6 +81,12 @@ p {
 }.free-web2:hover{
     background: rgb(233, 153, 153);
     transition: 1000ms;
+}.my-table-row{
+    font-size: 40px;
+    width: 20%;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
 }
 
 
