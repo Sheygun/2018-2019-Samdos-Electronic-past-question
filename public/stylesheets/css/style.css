@@ -87,6 +87,11 @@ p {
     margin-top: 30px;
     text-align: center;
     font-weight: bold;
+}.continue{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 400px;
+    text-align: center;
 }
 
 
@@ -94,20 +99,28 @@ p {
 @media screen and (max-width: 1300px) {
     .sam{
         margin: 5px 25%;
+    }.continue{
+        margin: 10px 300px;
     }
 }
 @media screen and (max-width: 1020px) {
     .sam{
         margin: 5px 20%;
+    }.continue{
+        margin: 10px 150px;
     }
 }
 @media screen and (max-width: 620px) {
     .sam{
         margin: 5px 15%;
+    }.continue{
+        margin: 10px 100px;
     }
 }
 @media screen and (max-width: 420px) {
     .sam{
         margin: 5px 10%;
+    }.continue{
+        margin: 10px 80px;
     }
 }

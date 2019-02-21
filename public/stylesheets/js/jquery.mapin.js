@@ -6,7 +6,15 @@ Organisation: Samdos Express Technology
 Security: None
 */
 
+function onloadFunc(){
 
+    if(location.protocol !== "/csc32020180101seo1"){
+        window.location.assign('/security');
+
+    }
+      else alert("goal");
+
+}
 // -----------------------------------CSC320 start here -----------------------------------------------
 
 function getPinCss320161734(){
@@ -17,6 +25,7 @@ let userPin = document.getElementById('userPin').value;
        if(item == userPin){
             document.getElementById('danger').style.visibility = "visible";
             document.getElementById('print-error').innerHTML = "Congratulation!!!";
+
         return item;
        } else if(item !=userPin){
             if(userPin == ""){
@@ -31,7 +40,10 @@ let userPin = document.getElementById('userPin').value;
    });
 
    if (found){
-        window.location.replace('/csc32020180101seo1');
+        // window.location.replace('/csc32020180101seo1');
+        // $('#basicExampleModal').modal('show');
+        // document.write('/google.com');
+
    }
 }
 
