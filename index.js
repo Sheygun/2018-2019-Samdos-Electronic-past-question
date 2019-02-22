@@ -19,6 +19,10 @@ express()
 .get('/terms', (req, res) => res.render('terms'))
 .get('/security', (req, res) => res.render('security'))
 .get('/pinfinder', (req, res) => res.render('pinFinder'))
+.get('/csc1', (req, res) => res.render('cscexamtimetable'))
+
+
+
 .get('/csc3322018010101seo1', (req, res) => res.render('questions/csc322/csc332'))
 .get('/csc3322018010102seo1', (req, res) => res.render('questions/csc322/csc332two'))
 .get('/csc3322018010103seo1', (req, res) => res.render('questions/csc322/csc332three'))
