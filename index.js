@@ -17,7 +17,6 @@ express()
 
 .get('/error', (req, res) => res.render('questions/unprocessed'))
 .get('/terms', (req, res) => res.render('terms'))
-.get('/security', (req, res) => res.render('security'))
 .get('/pinfinder', (req, res) => res.render('pinFinder'))
 .get('/csc1', (req, res) => res.render('cscexamtimetable'))
 

@@ -92,6 +92,8 @@ p {
     padding: 10px;
     margin: 10px 400px;
     text-align: center;
+}.read-button{
+    visibility: hidden;
 }
 
 
@@ -114,13 +116,13 @@ p {
     .sam{
         margin: 5px 15%;
     }.continue{
-        margin: 10px 100px;
+        margin: 10px 50px;
     }
 }
 @media screen and (max-width: 420px) {
     .sam{
         margin: 5px 10%;
     }.continue{
-        margin: 10px 80px;
+        margin: 10px 30px;
     }
 }

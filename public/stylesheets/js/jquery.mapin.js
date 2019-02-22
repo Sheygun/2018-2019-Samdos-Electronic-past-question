@@ -9,10 +9,8 @@ Security: None
 function onloadFunc(){
 
     if(location.protocol !== "/csc32020180101seo1"){
-        window.location.assign('/security');
-
+        // window.location.assign('/security');
     }
-      else alert("goal");
 
 }
 // -----------------------------------CSC320 start here -----------------------------------------------
@@ -40,6 +38,7 @@ let userPin = document.getElementById('userPin').value;
    });
 
    if (found){
+       document.getElementById('readButton').style.visibility = "visible";
         // window.location.replace('/csc32020180101seo1');
         // $('#basicExampleModal').modal('show');
         // document.write('/google.com');
@@ -68,8 +67,8 @@ let userPin = document.getElementById('userPin').value;
    });
 
    if (found){
-        window.location.replace('/csc32020180101seo2');
-   }
+    document.getElementById('readButton').style.visibility = "visible";
+}
 }
 
 
