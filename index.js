@@ -19,6 +19,7 @@ express()
 .get('/terms', (req, res) => res.render('terms'))
 .get('/pinfinder', (req, res) => res.render('pinFinder'))
 .get('/csc1', (req, res) => res.render('cscexamtimetable'))
+.get('/test260219', (req, res) => res.render('others/toyintest260219'))
 
 
 
