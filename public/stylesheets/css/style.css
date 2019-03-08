@@ -4,6 +4,17 @@ body{
     font-family: 'Open Sans', sans-serif;
     padding: 0px;
     margin: 0px;
+}.bk-design{
+    background: url("../images/pexels-photo-459319.jpeg") no-repeat center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.opaque{
+    background: black;
+    opacity: 0.85;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
@@ -37,7 +48,7 @@ p {
 }
 .my-body{
     width: auto;
-    background: rgb(174, 219, 255);
+
 }
 .body-section{
     width: auto;
@@ -126,3 +137,4 @@ p {
         margin: 10px 30px;
     }
 }
+

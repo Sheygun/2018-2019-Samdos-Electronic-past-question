@@ -13,9 +13,9 @@ function onloadFunc(){
     }
 
 }
-// -----------------------------------CSC320 start here -----------------------------------------------
+// -----------------------------------CSC340 start here -----------------------------------------------
 
-function getPinCss320161734(){
+function getPinCss340a(){
 
 let array1 = [12324, 10944 ,19100 ,13171 ,10002 ,12498 ,19815 ,17758 ,11991];
 let userPin = document.getElementById('userPin').value;
@@ -46,7 +46,7 @@ let userPin = document.getElementById('userPin').value;
    }
 }
 
-function getPinCss320161756(){
+function getPinCss340b(){
     let array1 = [16986 ,18890 ,11742 ,14599 ,11423 ,14570 ,18441 ,17483 ,12561];
 let userPin = document.getElementById('userPin').value;
    let found = array1.find(function index(item){

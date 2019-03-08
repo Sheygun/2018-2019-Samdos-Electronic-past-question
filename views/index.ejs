@@ -22,8 +22,8 @@
 <link rel="stylesheet" href="stylesheets/css/style-fraction.css"/>
 </head>
 
-<body>
-<main>
+<body class="bk-design">
+<main class="opaque">
 <div class="my-body">
 <%- include partial/navbar %>
 
@@ -70,35 +70,37 @@
               </div>
             </div>
 
-            <div class="col-6 mb-5">
-                <div class="body-section wow fadeInRight" data-wow-duration="3s"><br>
+
+
+              <div class="col-6 mb-5">
+                <div class="body-section wow fadeInLeft" data-wow-duration="3s"><br>
                     <h1 class="white-text h3 text-center font-weight-bold p-3 mx-5">CSC322</h1>
                     <h3 class="text-center my-3 white-text">3 Units</h3>
-                    <h3 class="text-center my-3 red-text white p-3">Pending</h3>
+                    <h3 class="text-center my-3 white-text">Not Available</h3>
                     <center><button class="btn btn-outline-white round-button mb-4" type="button" aria-expanded="false"
                         aria-controls="collapseExample" data-toggle="collapse" data-target="#collapseExample2" style="font-size: 11px;">See Details</button></center>
 
               <div class="collapse" id="collapseExample2">
                 <div class="mt-3">
-                    <table class="table">
-                      <tbody>
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <td class="h4 text-center white-text font-weight-bold">Functional Programming</td>
+                      </tr>
+                      <tr>
+                        <td class="h4 text-center font-weight-bold hover-text"><a href="/error" class="white-text">2016/2017</a></td>
+                      </tr>
                         <tr>
-                          <td class="h4 text-center white-text font-weight-bold">Functional Programming</td>
-                        </tr>
-                        <tr>
-                          <td class="h4 text-center font-weight-bold hover-text"><a href="/error" class="white-text">2016/2017</a></td>
-                        </tr>
-                          <tr>
-                          <td class="h4 text-center font-weight-bold hover-text"><a href="/error" class="white-text">2015/2016</a></td>
-                        </tr>
-                        <tr>
-                          <td class="h4 text-center font-weight-bold hover-text"><a href="/error" class="white-text">2014/2015</a></td>
-                        </tr>
-                        <tr>
-                          <td class="h4 text-center font-weight-bold hover-text"><a href="/error" class="white-text">Others</a></td>
-                        </tr>
-                      </tbody>
-                    </table>
+                        <td class="h4 text-center font-weight-bold hover-text"><a href="/error" class="white-text">2015/2016</a></td>
+                      </tr>
+                      <tr>
+                        <td class="h4 text-center font-weight-bold hover-text"><a href="/error" class="white-text">2014/2015</a></td>
+                      </tr>
+                      <tr>
+                        <td class="h4 text-center font-weight-bold hover-text"><a href="/error" class="white-text">Others</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
                 </div>
@@ -195,7 +197,7 @@
             <div class="body-section wow fadeInLeft"  data-wow-duration="3s"><br>
                 <h1 class="white-text h3 text-center font-weight-bold p-3 mx-5">CSC340</h1>
                 <h3 class="text-center my-3 white-text">2 Units</h3>
-                <h3 class="text-center my-3 white-text">Not Available</h3>
+                    <h3 class="text-center my-3 red-text white p-3">Pending</h3>
                 <center><button class="btn btn-outline-white round-button mb-4" type="button" aria-expanded="false"
                     aria-controls="collapseExample" data-toggle="collapse" data-target="#collapseExample5" style="font-size: 11px;">See Details</button></center>
 
@@ -207,7 +209,7 @@
                       <td class="h4 text-center white-text font-weight-bold">Social and Professional Issues In Information Technology</td>
                     </tr>
                     <tr>
-                      <td class="h4 text-center font-weight-bold hover-text"><a href="/error" class="white-text">2016/2017</a></td>
+                      <td class="h4 text-center font-weight-bold hover-text"><a href="/csc340a" class="white-text">2016/2017</a></td>
                     </tr>
                       <tr>
                       <td class="h4 text-center font-weight-bold hover-text"><a href="/error" class="white-text">2015/2016</a></td>
@@ -299,7 +301,7 @@
   <div class="col-md-4">
       <div class="advert">
         <div>
-          <a href="mailto:hollasheg@gmail.com"><img src="stylesheets/images/advert.jpeg" alt="Advert" class="advert-img"></a>
+          <a href="mailto:hollasheg@gmail.com"><img src="stylesheets/images/samdos.jpg" alt="Advert" class="img-fluid"></a>
         </div>
         <div class="my-4 free-web2 wow pulse" data-wow-iteration="1" data-wow-duration="2s">
             <a href="http://samdos.herokuapp.com" class=" white-text"><h4 class="text-center p-4">GET A FREE WEBSITE NOW CLICK HERE</h4></a>
@@ -313,6 +315,9 @@
         <div class="my-3 free-web">
             <a href="mailto:hollasheg@gmail.com" class=" white-text "><h4 class=" text-center p-4">FOR SPONSORSHIP/COMPLAIN OR ADVERTISEMENT CLICK HERE</h4></a>
         </div>
+        <div>
+            <a href="mailto:hollasheg@gmail.com"><img src="stylesheets/images/advert.jpeg" alt="Advert" class="img-fluid"></a>
+        </div>
       </div>
     </div>
 </div>
@@ -322,10 +327,10 @@
 </div>
 </main>
 
-<footer class="my-5">
+<footer class="my-5 white p-5 mx-auto d-flex align-item-center justify-content-center col-10 rounded">
 <center>
   <a href="/terms" class="black-text"><h5 class="font-weight-bold">See Terms and Conditions</h5></a>
-    <h4 class="blue-text">© Copyright 2019<a href="http://samdos.herokuapp.com" class="red-text"> - 1.1v Sheygun Technology</a></h4>
+    <h4 class="blue-text font-weight-bold">© Copyright 2019<a href="http://samdos.herokuapp.com" class="red-text"> - 1.2v Sheygun Technology</a></h4>
 </center>
 </footer>
 </body>
