@@ -104,6 +104,8 @@ p {
     text-align: center;
 }.read-button{
     visibility: hidden;
+}.display-pq{
+    width: auto;
 }
 
 

@@ -74,6 +74,67 @@ let userPin = document.getElementById('userPin').value;
 }
 
 
+// -----------------------------------CSC326 start here -----------------------------------------------
+
+function getPinCss326a(){
+
+    // let array1 = [12324, 10944 ,19100 ,13171 ,10002 ,12498 ,19815 ,17758 ,11991];
+    let array1 = [1111];
+    let userPin = document.getElementById('userPin').value;
+       let found = array1.find(function index(item){
+           if(item == userPin){
+                document.getElementById('danger').style.visibility = "visible";
+                document.getElementById('print-error').innerHTML = "Congratulation!!!";
+
+            return item;
+           } else if(item !=userPin){
+                if(userPin == ""){
+                    document.getElementById('danger').style.visibility = "visible";
+                    document.getElementById('print-error').innerHTML = "You didn't enter any Value, Please Input Pin!!!";
+                }else{
+
+                document.getElementById('danger').style.visibility = "visible";
+                document.getElementById('print-error').innerHTML = "You've entered an Incorrect pin, kindly try again!!!";
+                }
+           }
+       });
+
+       if (found){
+           document.getElementById('readButton').style.visibility = "visible";
+            // window.location.replace('/csc32020180101seo1');
+            // $('#basicExampleModal').modal('show');
+            // document.write('/google.com');
+
+       }
+    }
+
+    function getPinCss326b(){
+        // let array1 = [16986 ,18890 ,11742 ,14599 ,11423 ,14570 ,18441 ,17483 ,12561];
+        let array1 = [2222];
+    let userPin = document.getElementById('userPin').value;
+       let found = array1.find(function index(item){
+           if(item == userPin){
+                document.getElementById('danger').style.visibility = "visible";
+                document.getElementById('print-error').innerHTML = "Congratulation!!!";
+            return item;
+           } else if(item !=userPin){
+                if(userPin == ""){
+                    document.getElementById('danger').style.visibility = "visible";
+                    document.getElementById('print-error').innerHTML = "You didn't enter any Value, Please Input Pin!!!";
+                }else{
+
+                document.getElementById('danger').style.visibility = "visible";
+                document.getElementById('print-error').innerHTML = "You've entered an Incorrect pin, kindly try again!!!";
+                }
+           }
+       });
+
+       if (found){
+        document.getElementById('readButton').style.visibility = "visible";
+    }
+    }
+
+
 // ------------------------------------CSC322 start here -------------------------------------------------
 
 

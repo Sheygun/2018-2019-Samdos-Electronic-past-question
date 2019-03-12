@@ -33,5 +33,11 @@ express()
 .get('/csc340b', (req, res) => res.render('questions/csc340/csc340b'))
 .get('/csc340c', (req, res) => res.render('questions/csc340/csc340c'))
 
+// --------------------------------csc326-------------------------
+
+.get('/csc326a', (req, res) => res.render('questions/csc326/csc326a'))
+.get('/csc326b', (req, res) => res.render('questions/csc326/csc326b'))
+.get('/csc326c', (req, res) => res.render('questions/csc326/csc326c'))
+
 
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
