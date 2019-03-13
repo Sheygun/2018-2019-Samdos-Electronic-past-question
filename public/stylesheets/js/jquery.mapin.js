@@ -78,8 +78,8 @@ let userPin = document.getElementById('userPin').value;
 
 function getPinCss326a(){
 
-    // let array1 = [12324, 10944 ,19100 ,13171 ,10002 ,12498 ,19815 ,17758 ,11991];
-    let array1 = [1111];
+    let array1 = [12099, 15471, 19561, 14970, 15034, 11400, 15101, 14475, 19244];
+    // let array1 = [1111];
     let userPin = document.getElementById('userPin').value;
        let found = array1.find(function index(item){
            if(item == userPin){
@@ -109,8 +109,8 @@ function getPinCss326a(){
     }
 
     function getPinCss326b(){
-        // let array1 = [16986 ,18890 ,11742 ,14599 ,11423 ,14570 ,18441 ,17483 ,12561];
-        let array1 = [2222];
+        let array1 = [16092, 10250, 18494, 19555, 19190, 12517, 18661, 14973, 17933];
+        // let array1 = [2222];
     let userPin = document.getElementById('userPin').value;
        let found = array1.find(function index(item){
            if(item == userPin){

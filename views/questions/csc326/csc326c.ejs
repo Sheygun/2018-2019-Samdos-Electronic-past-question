@@ -117,7 +117,12 @@
                     </div>
                     <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
                       <div class="card-body">
-
+                          <p>
+                            Use the “rm” command to remove file <br>
+                                “rm firstfile Secondfile” for more than one file <br>
+                                “rm: remove Firstfile (y/n)? y” for prompt answer <br>
+                                “rm: remove Secondfile (y/n)? n” <br>
+                          </p>
 
 
                       </div>
@@ -164,8 +169,12 @@
                           </div>
                           <div id="collapseTwo7" class="collapse" role="tabpanel" aria-labelledby="headingTwo7" data-parent="#accordionEx1">
                               <div class="card-body">
-
-
+                                <p align="justify">
+                                  i.	The operating system as an <b>Extended Machine</b>, The architecture (Instruction set, memory organization, I/O, and bus structure) of most computers at the machine language level is primitive and awkward to program especially for input/output.
+                                </p>
+                                <p align="justify">
+                                  ii.	<b>Resources management:</b> refers to technologies for managing resources (computer with limit availability) resources manager is a process that registers a name in the file system name space. Other process uses the path to communicate with the resources manager. They are responsible for presenting an interface to various type of device. This may involve managing actual hardware device like serial port, parallel port, network card etc
+                                </p>
                               </div>
                           </div>
                           </div>
@@ -181,7 +190,13 @@
                     <div id="collapseTwo8" class="collapse" role="tabpanel" aria-labelledby="headingTwo8" data-parent="#accordionEx1">
                       <div class="card-body">
 
-
+                        <p align="justify">
+                          <b>Files</b> are an abstraction mechanism. A file consists of data on disk. Can regard this data as a sequence of byte <br>
+                            They are three kinds of files: <br>
+                            <b>Byte Sequence:</b> It is an unstructured sequence of bytes. In effect, the operating system does not know or care what is in the file. All it sees are the byte <br>
+                           <b> Record sequence:</b> A file is a sequence of fixed length records each with some internal structure. Control to the idea of a file being a sequence of records in the idea that the read operation returns one record and the write operation overwrite or appends one record. <br>
+                            <b>Tree sequence:</b> A file consist of a tree of records, not necessarily all the same length, each containing a key field in a fixed position in the record. The tree is sorted on the key field, to allow rapid searching for a particular key. <br>
+                        </p>
 
                       </div>
                     </div>
@@ -199,7 +214,17 @@
                     <div id="collapseThree9" class="collapse" role="tabpanel" aria-labelledby="headingThree9" data-parent="#accordionEx1">
                       <div class="card-body">
 
-
+                        <p align="justify">
+                         <b> Sequential access:</b> In Computer Science, means that a group of element (such as data in a memory array or a disk file or on magnetic tape data storage) is accessed in a predetermined, ordered sequence. It is sometimes the only way of accessing the data, for example if it is on a tape <br>
+                           <b> Random access file:</b> means that you are not accessing the file in the order it was written but instead are skipping around inside the file. <br>
+                          Differences between Sequential and Random Access <br>
+                          <b>Sequential access</b> <br>
+                          Step by step in accessing file <br>
+                          Read and write information to file sequentially <br>
+                          <b>Random Access</b> <br>
+                          It access file randomly <br>
+                          Read and write information anywhere in the data file <br>
+                        </p>
 
                       </div>
                     </div>
@@ -216,7 +241,20 @@
                     </div>
                     <div id="collapseThree90" class="collapse" role="tabpanel" aria-labelledby="headingThree90" data-parent="#accordionEx1">
                       <div class="card-body">
-
+                        <p align="justify">
+                          List of some common file operation: <br>
+                          File CREATE operation <br>
+                          File DELETE operation <br>
+                          File OPEN operation <br>
+                          File CLOSE operation <br>
+                          File READ operation <br>
+                          File WRITE operation <br>
+                          File APPEND operation <br>
+                          File SEEK operation <br>
+                          File GET ATTRIBUTE operation <br>
+                          File SET ATTRIBUTE operation <br>
+                          File RENAME operation <br>
+                        </p>
 
 
                       </div>
@@ -235,7 +273,13 @@
                     <div id="collapseThree91" class="collapse" role="tabpanel" aria-labelledby="headingThree91" data-parent="#accordionEx1">
                       <div class="card-body">
 
-
+                        <p align="justify">
+                          <b>Absolute Pathname:</b> is the location of a file system object (i.e. File, directory or Link) relative to the root directory <br>
+                          Example in <br>
+                          http://www.samdos.herokuapp.com/timetable.html <br>
+                          the http://www.samdos.herokuapp.com is the absolute pathname <br>
+                          <b> Relative path name</b> is a way to specify the location of a directory relative to another directory e.g. timetable.html <br>
+                        </p>
 
                       </div>
                     </div>
@@ -252,7 +296,12 @@
                     </div>
                     <div id="collapseThree92" class="collapse" role="tabpanel" aria-labelledby="headingThree92" data-parent="#accordionEx1">
                       <div class="card-body">
-
+                        <p align="justify">
+                          i.	<b>Master Boot Record(MBR)</b> is the information in the first section of any hard disk or diskette that identifies how and where an operating system is located so that it can be boot (loaded) into the computer’s main storage or random access memory. <br>
+                          ii.	<b>Partition Table:</b> is a 64 byte data structure that provides basic information for a computer’s operating system about the division of the hard disk drive (HDD) into primary partitions. A data structure is an efficient way of organizing data. <br>
+                          iii.	<b>Super block</b> is a record of the characteristics of a file system, including it size, the block size the empty and the filled blocks and their respective counts, the size and location of the inode tables the disk block map and usage information and the size of the block group. <br>
+                          iv.	<b>A magic number</b> is a number embedded at or near the beginning of a file that indicates its file format (i.e. the type of files it is). It is also sometimes referred to as a file signature <br>
+                        </p>
 
 
                       </div>
@@ -299,7 +348,7 @@
         </button>
       </div>
       <div class="modal-body mx-auto align-item-center justify-content-center d-flex">
-        <img src="stylesheets/images/pq/IMG-20181030-WA0005.jpg" class="img-fluid display-pq" style="height: 600px;" alt="Question Image" srcset="">
+        <img src="stylesheets/images/pq/IMG-20190312-WA0000.jpg" class="img-fluid display-pq" style="height: 600px;" alt="Question Image" srcset="">
       </div>
       <div class="modal-footer">
       </div>

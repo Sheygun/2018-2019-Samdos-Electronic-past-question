@@ -109,7 +109,15 @@
                       </div>
                       <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
                         <div class="card-body">
+                          <p align="justify">
+                            Factors determinng the time requred to read from and Write to a disk: <br>
+                            <b>Seek time:</b> The seek time of a hard disk measures the amount of time required for the Read/Write heads to move between tracks <br>
+                              <b>Latency:</b> The hard disk platters are spinning around at high speed, and the spin speed is not synchronized to the process that moves the Read/Write head to the correct cylinder on a random access of any sector of the hard disk. <br>
+                              <b>Access Time:</b> Positioning on a random read or write of the disk requires moving the heads to the correct cylinder and then waiting for the correct sector to rotate under the heads. <br>
+                             <b> Head Switch Time:</b> Each cylinder contains a number of tracks, each accessible by one of the heads on the drive <br>
+                            <b>Track Switch Time:</b> The track switch time also called cylinder switch time, measure in milliseconds the amount of time required to move the read/write heads from one cylinder to an adjacent one.
 
+                          </p>
 
 
                         </div>
@@ -127,9 +135,24 @@
                       </div>
                       <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2" data-parent="#accordionEx">
                         <div class="card-body">
+                         <p align="center">
+                          <b> First Come first served Algorithm:</b> The process which arrive first, get executed first, or we can say that the process which requests the CPU first, get the CPU allowed first, <br>
+                          FCFS is like FIFO (data structure) <br>
+                          This is used in Batch System <br>
+                          Easy to understand and implement
+                         </p>
 
+                         <p align="justify">
+                         <b> Shortest seek first Algorithm:</b> is a secondary storage scheduling algorithm is determine the motion of the disk’s arm and head in servicing read and write request <br>
+                          SSFA: works on the process with the shortest burst time or duration first <br>
+                          Best approach to minimize waiting time <br>
+                          This is used in Batch System <br>
+                          It is in pre emptive and Non pre-emptive
+                         </p>
 
-
+                         <p align="justify">
+                         <b> Elevator Algorithm:</b> is a disk scheduling algorithm to determine the motion of the disk’s arm and head in servicing read and write request. It is a simple algorthm by which a single elevator can decide where to stop.
+                         </p>
 
                         </div>
                       </div>
@@ -156,8 +179,12 @@
                               </div>
                               <div id="collapseTwo7" class="collapse" role="tabpanel" aria-labelledby="headingTwo7" data-parent="#accordionEx1">
                                   <div class="card-body">
-
-
+                                    <p align="justify">
+                                      <b>A block device:</b> is a computer data storage device that supports reading and writing data in fixed-size blocks, sectors, or clusters. This block are generally 512 byte or a multiple thereof in size.
+                                    </p>
+                                    <p align="justify">
+                                     <b> A character Device: </b> is one with which the Driver communicate by sending and receiving single character (bytes, octets).
+                                    </p>
                                   </div>
                               </div>
                               </div>
@@ -172,7 +199,14 @@
                         </div>
                         <div id="collapseTwo8" class="collapse" role="tabpanel" aria-labelledby="headingTwo8" data-parent="#accordionEx1">
                           <div class="card-body">
-
+                            <p>
+                              Functions of Device-independent I/O software <br>
+                               <b> Naming <br>
+                                Protection <br>
+                                Blocking <br>
+                                Buffering <br>
+                                Allocation</b>
+                            </p>
 
 
                           </div>
@@ -191,7 +225,14 @@
                         <div id="collapseThree9" class="collapse" role="tabpanel" aria-labelledby="headingThree9" data-parent="#accordionEx1">
                           <div class="card-body">
 
-
+                            <p>
+                              Goals of the I/O software: <br>
+                               <b> i. device independency <br>
+                                ii. Error handling <br>
+                                iii. Synchronous transfer <br>
+                                iv. Asynchronous transfer <br>
+                                v. Buffering</b>
+                            </p>
 
                           </div>
                         </div>
@@ -209,7 +250,10 @@
                         <div id="collapseThree90" class="collapse" role="tabpanel" aria-labelledby="headingThree90" data-parent="#accordionEx1">
                           <div class="card-body">
 
-
+                            <p>
+                            <b>  Thunderbolt 2 > mouse > keyboard > SATA 3 > firewire <br>
+                            	Keyboard > Mouse > Firewire > SATA 3 > Thunderbolt 2 </b>
+                            </p>
 
                           </div>
                         </div>
@@ -238,7 +282,13 @@
                     </div>
                     <div id="collapseTwo7" class="collapse" role="tabpanel" aria-labelledby="headingTwo7" data-parent="#accordionEx1">
                         <div class="card-body">
-
+                          <p>
+                            Areas in file Backup System are: <br>
+                            1. Storage, the base of a backup system; which include Data repository models, storage media, managing the data repository <br>
+                            2. Selection and extraction of data; which includes copying files, file systems, versioning file system <br>
+                            3. Manipulation of data and data set Optiminzation; which include compressing deduplication, Encryption, multiplexing staging <br>
+                            4. Enterprise client-server backup i.e. the functions and performance
+                          </p>
 
                         </div>
                     </div>
@@ -254,7 +304,12 @@
                     </div>
                     <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2" data-parent="#accordionEx">
                       <div class="card-body">
-
+                        <p align="justify">
+                          I.	<b>Write through cache:</b> is a storage method in which data is written into the cache and the corresponding main memory location at the same time. The cached data allow for fast retrieval on demand while the same data in main memory ensures that nothing will get lost if a crash, power failure, or other system disruption occurs <br>
+                          ii. <b>Block read ahead:</b> is a system call of the linux kernel that loads a files contents into the page cache <br>
+                         iii. <b>Physical dump:</b> also known as the blue screen of death (BSOD) for computer. This happens when a faulting application causes your computer to crash. When your computer crashes, it creates a file that \“dump\” the data that were running at the time of the crash. This allows you to pinpoint the application or file that caused the crash. <br>
+                         iv. <b>Logical dumb:</b> A logical dump starts at one or more specified directories and recursively dumps all files and directories found there that have been changed since some given base data (the last backup for an increnemental dump for a full dump). <br>
+                        </p>
 
 
 
@@ -272,7 +327,13 @@
                       <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3" data-parent="#accordionEx">
                         <div class="card-body">
 
-
+                          <p align="justify">
+                           <b> Hard links</b> point, or reference, to a specific space on the hard drive. You can have multiple files hard linked to the same place in the hard drive, but if you change the data on one of these files, the other files will also reflect that changes <br>
+                            <b>Symbolic links</b> work a bit differently. A symbolic link still points to a specific point on the hard drive, but if you create a second file, the second file does not point to the hard drive. Instead, to the first file
+                          </p>
+                          <p>
+                            <b>Hard link:</b> are more forgiving when you delete a file; <b>Soft link</b> takes up less data but soft link doens’t store the actual data, or the location of the original file.
+                          </p>
 
 
                         </div>
@@ -311,7 +372,7 @@
         </button>
       </div>
       <div class="modal-body mx-auto align-item-center justify-content-center d-flex">
-        <img src="stylesheets/images/pq/IMG-20181030-WA0005.jpg" class="img-fluid display-pq" style="height: 600px;" alt="Question Image" srcset="">
+        <img src="stylesheets/images/pq/IMG-20190312-WA0000.jpg" class="img-fluid display-pq" style="height: 600px;" alt="Question Image" srcset="">
       </div>
       <div class="modal-footer">
       </div>
