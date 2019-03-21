@@ -33,6 +33,12 @@ express()
 .get('/csc340b', (req, res) => res.render('questions/csc340/csc340b'))
 .get('/csc340c', (req, res) => res.render('questions/csc340/csc340c'))
 
+// --------------------------------csc328-------------------------
+
+.get('/csc328a', (req, res) => res.render('questions/csc328/csc328a'))
+.get('/csc328b', (req, res) => res.render('questions/csc328/csc328b'))
+.get('/csc328c', (req, res) => res.render('questions/csc328/csc328c'))
+
 // --------------------------------csc326-------------------------
 
 .get('/csc326a', (req, res) => res.render('questions/csc326/csc326a'))
