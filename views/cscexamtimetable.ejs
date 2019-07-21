@@ -1,173 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Samdos Express Technology</title>
-  <link rel="stylesheet" href="./stylesheets/css/style.css">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link href="stylesheets/css/bootstrap.min.css" rel="stylesheet">
-  <link href="stylesheets/css/mdb.min.css" rel="stylesheet">
-  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-  <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,700">
-        <link rel="stylesheet" href="stylesheets/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="stylesheets/css/animate.css">
-        <link rel="stylesheet" href="stylesheets/css/media-queries.css">
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
-        <link rel="stylesheet" type="text/css" href="stylesheets/css/switcher.css" media="screen" />
-        <link rel="stylesheet" href="stylesheets/css/fractionslider.css"/>
-        <link rel="stylesheet" href="stylesheets/css/style-fraction.css"/>
-</head>
+
+  <%- include partial/head %>
+  <style>
+  td{
+    font-size: 11px;
+  }
+  </style>
 <body class="bk-design">
-    <div class="opaque">
-      <nav class="">
-        <center class=" fixed-top sam wow pulse" data-wow-duration="3s" data-wow-iteration="1000"> <br>
-          <h5 class="font-weight-bold edit-samdos">Samdos Express Technology</h5>
-          <h6 style="font-size: 10px;" class="blue-text h4-responsive">Electronic Past Questions and Answers</h6>
-          <h6><a href="/" class="white-text blue p-2">Go Home</a></h6>
-        </center>
-      </nav>
+    <main class="opaque">
+    <%- include partial/navbar %> <br>
 
-      <main class="container">
-          <div style="margin-top: 120px; margin-right: 10px;"></div>
+     <div class="container">
+        <div style="margin-top: 120px;">
 
-        <div class="white p-3">
-            <div class="mt-5">
-                <div class="mb-5">
-                    <center>
-                        <h1 class="font-weight-bold h3">LAGOS STATE UNIVERSITY</h1>
-                        <h3 class="font-weight-bold h4">FACULTY OF SCIENCE</h3>
-                        <h4 class="font-weight-bold h5">PROVISIONAL 2017/2018 RAIN SEMESTER EXAMINATION TIMETABLE</h4>
-                        <h5 class="font-weight-bold mt-5">Posted By Ibukun Temitope (C.E.O VISIONISTER)</h5>
-                        <h3>Click Course to see the Course Units and Lecturer</h3>
-                    </center>
-                </div>
 
-                <table class="table table-bordered table-hover text-center">
-                        <thead>
-                          <tr>
-                            <th scope="col" class="h6">DAY/TIME</th>
-                            <th scope="col" class="h6">8:00 AM - 11:00 AM</th>
-                            <th scope="col" class="h6">11:30 AM - 2:30 PM</th>
-                            <th scope="col" class="h6">3:00 PM - 6:00 PM</th>
+                        <div class="">
+                            <div style="margin-top: 120px;">
 
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th scope="row" class="h6">MONDAY <br> MARCH 11</th>
-                            <td style="background: rgb(149, 146, 146);"></td>
-                            <td style="background: rgb(149, 146, 146);"></td>
-                            <td class="h5" onclick="alert('Lecturer \n Engr. Ayeniko \n 2 Units')">CSC340</td>
-                          </tr>
+                            <div class="white p-3" style="border-radius: 15px;">
+                                <div class="mt-5">
+                                    <div class="mb-5">
+                                        <center>
+                                            <h6 class="font-weight-bold" style="font-size: 15px;">LAGOS STATE UNIVERSITY</h6>
+                                            <h3 class="font-weight-bold" style="font-size: 11px;">FACULTY OF SCIENCE</h3>
+                                            <h4 class="font-weight-bold" style="font-size: 11px;">PROVISIONAL 2018/2019 FIRST SEMESTER EXAMINATION TIMETABLE</h4>
+                                            <h4 class="font-weight-bold" style="font-size: 11px;">COMPUTER SCIENCE 400 LEVEL</h4>
+                                            <h5 class="font-weight-bold mt-3" style="font-size: 11px;">Posted By Amusu Joshua (HOC)</h5>
+                                            <h3  style="font-size: 11px;">Click Course to see the Course Units, Course Title and Lecturer</h3>
+                                        </center>
+                                    </div>
 
-                          <tr>
-                                <th scope="row" class="h6">THURSDAY <br> MARCH 14</th>
-                                <td style="background: rgb(149, 146, 146);"></td>
-                                <td style="background: rgb(149, 146, 146);"></td>
-                                <td class="h5" onclick="alert('Lecturer \n Mrs Raji And Mr Shola \n 3 Units')">CSC326</td>
-                              </tr>
+                                  <div class="table-responsive">
+                                      <table class="table table-bordered table-hover text-center">
+                                          <thead>
+                                            <tr>
+                                              <th scope="col" class="h6">DAY/TIME</th>
+                                              <th scope="col" class="h6">8:00 AM - 11:00 AM</th>
+                                              <th scope="col" class="h6">11:30 AM - 2:30 PM</th>
+                                              <th scope="col" class="h6">3:00 PM - 6:00 PM</th>
 
-                              <tr>
-                                    <th scope="row" class="h6">SATURDAY <br> MARCH 16</th>
-                                    <td style="background: rgb(149, 146, 146);"></td>
-                                    <td style="background: rgb(149, 146, 146);"></td>
-                                    <td class="h5" onclick="alert('Lecturer \n Dr Wusu \n 3 Units')">MAT332</td>
-                                  </tr>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                              <tr>
+                                                  <th scope="row" class="h6">MONDAY <br> AUGUST 5</th>
+                                                  <td style="background: rgb(149, 146, 146);"></td>
+                                                  <td class="h5" onclick="alert('Lecturer \n PROCCESSING \n x Units')">CSC337</td>
+                                                  <td style="background: rgb(149, 146, 146);"></td>
+                                                </tr>
 
-                                  <tr>
-                                        <th scope="row" class="h6">MONDAY <br> MARCH 18</th>
-                                        <td style="background: rgb(149, 146, 146);"></td>
-                                        <td style="background: rgb(149, 146, 146);"></td>
-                                        <td class="h5" onclick="alert('Lecturer \n Mr Oloyede \n 3 Units')">CSC320</td>
-                                      </tr>
+                                            <tr>
+                                              <th scope="row" class="h6">THURSDAY <br> AUGUST 8</th>
+                                              <td style="background: rgb(149, 146, 146);"></td>
+                                              <td class="h5" onclick="alert('Lecturer \n MRS AKERELE \n DBMS 2 \n 3 Units')">CSC417</td>
+                                              <td style="background: rgb(149, 146, 146);"></td>
+                                            </tr>
 
-                                      <tr>
-                                            <th scope="row" class="h6">TUESDAY <br> MARCH 19</th>
-                                            <td class="h5"  onclick="alert('IT \n 2 Units')">CSC399</td>
-                                            <td style="background: rgb(149, 146, 146);"></td>
-                                            <td style="background: rgb(149, 146, 146);"></td>
-                                          </tr>
-
-                                          <tr>
-                                                <th scope="row" class="h6">SATURDAY <br> MARCH 23</th>
+                                            <tr>
+                                                <th scope="row" class="h6">FRIDAY <br> AUGUST 9</th>
                                                 <td style="background: rgb(149, 146, 146);"></td>
-                                                <td class="h5"  onclick="alert('Lecturer \n Mr Ogundipe \n 3 Units')">CSC328</td>
                                                 <td style="background: rgb(149, 146, 146);"></td>
+                                                <td class="h5" onclick="alert('Lecturer \n PROCCESSING \n x Units')">213/313</td>
                                               </tr>
 
-                                              <tr>
-                                                    <th scope="row" class="h6">MONDAY <br> MARCH 25</th>
-                                                    <td class="h5"  onclick="alert('General course \n 2 Units')">ENT302</td>
-                                                    <td style="background: rgb(149, 146, 146);"></td>
-                                                    <td style="background: rgb(149, 146, 146);"></td>
-                                                  </tr>
-                                                  <tr>
-                                                        <th scope="row" class="h6">TUESDAY <br> MARCH 26</th>
+                                            <tr>
+                                                  <th scope="row" class="h6">WEDNESDAY <br> AUGUST 14</th>
+                                                  <td class="h5" onclick="alert('Lecturer \n DR TOYIN \n SOFTWARE ENGINEERING 1 \n 3 Units')">CSC413</td>
+                                                  <td style="background: rgb(149, 146, 146);"></td>
+                                                  <td style="background: rgb(149, 146, 146);"></td>
+                                                </tr>
+
+                                                <tr>
+                                                      <th scope="row" class="h6">FRIDAY <br> AUGUST 16</th>
+                                                      <td style="background: rgb(149, 146, 146);"></td>
+                                                      <td style="background: rgb(149, 146, 146);"></td>
+                                                      <td class="h5" onclick="alert('Lecturer \n PROCCESSING \n x Units')">CSC419</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th scope="row" class="h6">SATURDAY <br> AUGUST 17</th>
+                                                        <td class="h5" onclick="alert('Lecturer \n PROCCESSING \n x Units')">217/317</td>
                                                         <td style="background: rgb(149, 146, 146);"></td>
                                                         <td style="background: rgb(149, 146, 146);"></td>
-                                                        <td class="h5"  onclick="alert('Lecturer \n Dr. Toyin \n 3 Units')">CSC322</td>
                                                       </tr>
 
-                        </tbody>
-                      </table>
-                      <div>
-                          <center>
-                              <h6>#TEAM_SAMDOS</h6>
-                              <h6>#TEAM_SHEYGUN</h6>
-                              <h5> © Copyright of Lagos State University</h5><br>
-                          </center>
+                                                    <tr>
+                                                          <th scope="row" class="h6">MONDAY <br> AUGUST 19</th>
+                                                          <td class="h5" onclick="alert('Lecturer \n PROCCESSING \n x Units')">CSC439</td>
+                                                          <td style="background: rgb(149, 146, 146);"></td>
+                                                          <td style="background: rgb(149, 146, 146);"></td>
+                                                        </tr>
+
+                                                        <tr>
+                                                              <th scope="row" class="h6">WEDNESDAY <br> AUGUST 21</th>
+                                                              <td class="h5" onclick="alert('Lecturer \n DR ADIGUN and Others \n ARTIFICIAL INTELLIGENCE \n 3 Units')">CSC311<br>CSC437</td>
+                                                              <td style="background: rgb(149, 146, 146);"></td>
+                                                              <td style="background: rgb(149, 146, 146);"></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <th scope="row" class="h6">THURSDAY <br> AUGUST 22</th>
+                                                                <td class="h5" onclick="alert('Lecturer \n DR TOYIN \n WEB DEVELOPMENT \n 2 Units')">CSC415</td>
+                                                                <td style="background: rgb(149, 146, 146);"></td>
+                                                                <td style="background: rgb(149, 146, 146);"></td>
+                                                              </tr>
+
+                                                            <tr>
+                                                                  <th scope="row" class="h6">FRIDAY <br> AUGUST 23</th>
+                                                              <td class="h5" onclick="alert('Lecturer \n PROCCESSING \n x Units')">CSC433</td>
+                                                                  <td style="background: rgb(149, 146, 146);"></td>
+                                                              <td class="h5" onclick="alert('Lecturer \n DR BOLU \n PRINCIPLE OF PROGRAMMING LANGUAGE \n 2 Units')">CSC435</td>
+
+                                                                </tr>
+
+                                                                <tr>
+                                                                    <th scope="row" class="h6">MONDAY <br> AUGUST 26</th>
+                                                                    <td style="background: rgb(149, 146, 146);"></td>
+                                                                    <td style="background: rgb(149, 146, 146);"></td>
+                                                                    <td class="h5" onclick="alert('Lecturer \n MR OLOYEDE \n DATA COMMUNICATION \n 3 Units')">CSC411</td>
+                                                                  </tr>
+
+                                                                <tr>
+                                                                      <th scope="row" class="h6">THURSDAY <br> AUGUST 29</th>
+                                                                      <td style="background: rgb(149, 146, 146);"></td>
+                                                                      <td style="background: rgb(149, 146, 146);"></td>
+                                                                      <td class="h5" onclick="alert('Lecturer \n PROCCESSING \n x Units')">CSC439</td>
+                                                                    </tr>
+
+
+                                          </tbody>
+                                        </table>
+                                  </div>
+                                          <div>
+                                              <center>
+                                                  <h6 class="mt-5" style="font-weight: bold; font-size: 11px;">#AMUSU JOSHUA (HOC)</h6>
+                                                  <h6 style="font-weight: bold; font-size: 11px;">#TEAM_SAMDOS</h6>
+                                                  <h6 style="font-weight: bold; font-size: 11px;">#TEAM_SHEYGUN</h6>
+                                                  <h5 style="font-weight: bold; font-size: 11px;"> © Copyright of Lagos State University</h5><br>
+                                              </center>
+                                          </div>
+                                  </div>
+                            </div><br><br>
+
+                        </div>
                       </div>
-              </div>
-        </div><br><br>
-      </main>
-    </div>
-    <footer class="my-5 white p-5 mx-auto d-flex align-item-center justify-content-center col-10 rounded">
-      <center>
-        <a href="/terms" class="black-text"><h6 class="font-weight-bold">See Terms and Conditions</h6></a>
-          <h6 style="font-size:11px;" class="blue-text font-weight-bold">© Copyright 2019<a href="http://samdos.herokuapp.com" class="red-text"> - 1.2v Sheygun Technology <br>All Right Reserved</a></h6>
-      </center>
-      </footer>
-</body>
 
+      </div>
 
+      <div class="row">
+          <div class="col-md-4">
+             <div>
+                 <a href="https://samdos.herokuapp.com"><img src="/stylesheets/images/samdos_opt.jpg" alt="Advert" class="img-fluid mx-auto d-flex align-item-center justify-content-center"></a>
+               </div>
+          </div>
 
+        <div class="col-md-4">
+            <div class="my-4 free-web2 wow pulse" data-wow-iteration="1" data-wow-duration="2s" style="height: 200px;">
+                <a href="https://samdosng.herokuapp.com" class=" white-text"><h4 class="text-center p-3 h5" style="transform: translateY(75px);">Samdos Express</h4></a>
+            </div>
+        </div>
 
+        <div class="col-md-4">
+            <div class="my-4 free-web2 wow pulse" data-wow-iteration="1" data-wow-duration="2s" style="height: 200px;">
+                <a href="https://wa.me/+2348102129149" class=" white-text"><h4 class="text-center p-3 h6" style="transform: translateY(75px);">Advertise Here For <b>Free</b></h4></a>
+            </div>
+        </div>
 
+     </div>
 
+     <%- include partial/footer %> <br>
+     </main>
+ </body>
 
+ <%- include partial/script %>
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-   <script type="text/javascript" src="stylesheets/js/jquery-3.3.1.min.js"></script>
-   <script type="text/javascript" src="stylesheets/js/popper.min.js"></script>
-   <script type="text/javascript" src="stylesheets/js/bootstrap.min.js"></script>
-   <script type="text/javascript" src="stylesheets/js/mdb.min.js"></script>
-   <script src="stylesheets/js/jquery-1.11.1.min.js"></script>
-         <script src="stylesheets/bootstrap/js/bootstrap.min.js"></script>
-         <script src="stylesheets/js/jquery.backstretch.min.js"></script>
-         <script src="stylesheets/js/wow.min.js"></script>
-         <script src="stylesheets/js/retina-1.1.0.min.js"></script>
-         <script src="stylesheets/js/scripts.js"></script>
-         <script type="text/javascript" src="stylesheets/js/jquery.cookie.js"></script>
- <script type="text/javascript" src="stylesheets/js/styleswitch.js"></script>
- <script src="stylesheets/js/jquery.fractionslider.js" type="text/javascript" charset="utf-8"></script>
- <script type="text/javascript" src="stylesheets/js/jquery.smartmenus.min.js"></script>
- <script type="text/javascript" src="stylesheets/js/jquery.smartmenus.bootstrap.min.js"></script>
- <script type="text/javascript" src="stylesheets/js/jquery.mapin.js"></script>
- <script type="text/javascript" src="stylesheets/js/owl.carousel.min.js"></script>
- <script type="text/javascript" src="stylesheets/js/jflickrfeed.js"></script>
- <script type="text/javascript" src="stylesheets/js/jquery.magnific-popup.min.js"></script>
- <script type="text/javascript" src="stylesheets/js/jquery.isotope.min.js"></script>
- <script type="text/javascript" src="stylesheets/js/jquery.easypiechart.min.js"></script>
- <script type="text/javascript" src="stylesheets/js/swipe.js"></script>
- <script type="text/javascript" src="stylesheets/js/jquery-scrolltofixed-min.js"></script>
- <script type="text/javascript" src="stylesheets/js/jquery.matchHeight-min.js"></script>
- <script src="stylesheets/js/SmoothScroll.min.js" type="text/javacript"></script>
- <script src="stylesheets/js/main.js"></script>
- <script>
-    new WOW().init();
-  </script>
-</html>
+ </html>

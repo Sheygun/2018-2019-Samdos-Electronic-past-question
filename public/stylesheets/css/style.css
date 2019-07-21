@@ -5,7 +5,7 @@ body{
     padding: 0px;
     margin: 0px;
 }.bk-design{
-    background: url("../images/pexels-photo-459319.jpeg") no-repeat center center;
+    background: url("../images/pexels-photo-240038.jpeg") no-repeat center center;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -13,8 +13,9 @@ body{
     background-size: cover;
 }
 .opaque{
+    width: 100%;
     background: black;
-    opacity: 0.75;
+    opacity: 0.96;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
@@ -35,7 +36,7 @@ p {
 }
 .sam{
     border-radius: 10px;
-    margin: 5px 30%;
+    margin: 5px 35%;
     background: rgb(0, 0, 0);
     -webkit-box-shadow:rgb(251, 251, 251) 5px 5px 10px;
     -moz-box-shadow:rgb(251, 251, 251) 5px 5px 10px;
@@ -61,7 +62,7 @@ p {
 }.advert{
     height: auto;
     width: auto;
-    margin: 0px 0px 20px; 0px;
+    margin: 0px 0px 20px 0px;
 }.body-section h1{
     background: black;
 }
